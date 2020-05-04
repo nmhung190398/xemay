@@ -23,6 +23,7 @@
         <!--//theme-style-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <meta name="keywords" content="Bonfire Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
               Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
         <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
@@ -156,7 +157,7 @@
 
                 <ul class="start">
                     <li><a href="#"><i></i></a></li>
-                    <%for(int i=1;i<=(total/8)+1;i++){%>
+                    <%for(int i=1;i<=((total-1)/8)+1;i++){%>
                         <li class="arrow"><a href="product.jsp?categoryID=<%=categoryID%>&pages=<%=i%>"><%=i%></a></li>
                     <%}%>
                     <li><a href="#"><i class="next"> </i></a></li>

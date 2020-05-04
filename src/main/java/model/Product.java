@@ -30,9 +30,9 @@ public class Product {
         this.productDescription = productDescription;
     }
 
-    public Product(long time, String tenSP, String gia, String loai, String hinhanh, String Mota) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+//    public Product(long time, String tenSP, String gia, String loai, String hinhanh, String Mota) {
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+//    }
 
     public long getProductID() {
         return productID;

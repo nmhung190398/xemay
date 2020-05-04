@@ -53,7 +53,7 @@
                             <td class="data" width="30px"><%=count%></td>
                             <td class="data"><%=product.getProductName()%></td>
                             <td class="data"><%=String.format("%,.0f", product.getProductPrice())%></td>
-                            <td class="data"><img style="width: 20%;text-align: center;" src="${root}/<%=product.getProductImage()%>"></td>                            
+                            <td class="data"><img style="width: 20%;text-align: center;" src="${root}/UploadServlet?filename=<%=product.getProductImage()%>"></td>                            
                             <td class="data"><%=product.getProductDescription()%></td>
                             <td class="data">
                                 <a href="#" class="btn btn-success">Sửa </a>

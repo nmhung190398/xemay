@@ -19,10 +19,10 @@
 
         <div id="leftBar">
             <ul>
-                <li><a href="index.jsp"><i class="fa fa-home fa-2x" aria-hidden="true"></i>  Trang chủ</a></li>
-                <li><a href="manager_category.jsp"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i>  Danh mục</a></li>
-                <li><a href="manager_product.jsp"><i class="fa fa-mobile fa-3x" aria-hidden="true" style="padding-right: 8px;margin-left: 5px;"></i>  Sản phẩm</a></li>
-                <li><a href="manager_bill.jsp"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>  Hóa đơn</a></li>
+                <li><a href="${pageContext.request.contextPath}/admin"><i class="fa fa-home fa-2x" aria-hidden="true"></i>  Trang chủ</a></li>
+                <li><a href="${pageContext.request.contextPath}/admin/manager_category.jsp"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i>  Danh mục</a></li>
+                <li><a href="${pageContext.request.contextPath}/admin/manager_product.jsp"><i class="fa fa-mobile fa-3x" aria-hidden="true" style="padding-right: 8px;margin-left: 5px;"></i>  Sản phẩm</a></li>
+                <li><a href="${pageContext.request.contextPath}/admin/manager_bill.jsp"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i>  Hóa đơn</a></li>
                 <li><a href="${root}/web/ChartServlet"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i>  Thống kê</a></li>
             </ul>
         </div>

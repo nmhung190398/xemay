@@ -62,8 +62,8 @@ public class CheckOutServlet extends HttpServlet {
                         list.getValue().getProduct().getProductPrice(),
                         list.getValue().getQuantity()));
             }
-            SendMail sm = new SendMail();
-            sm.sendMail(users.getUserEmail(), "Phan Tuấn Anh", "Hello, "+users.getUserEmail()+"\nTotal: "+cart.totalCart());
+
+            SendMail.sendMail(users.getUserEmail(), "Phan Tuấn Anh", "Hello, "+users.getUserEmail()+"\nTotal: "+cart.totalCart());
             cart = new Cart();
             session.setAttribute("cart", cart);
         } catch (Exception e) {
